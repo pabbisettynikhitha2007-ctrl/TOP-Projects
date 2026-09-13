@@ -1,0 +1,55 @@
+* {
+    /* background-color: bisque; */
+    margin: 0;
+}
+
+#submit {
+    margin-top: 5px;
+}
+
+form {
+    margin-left: 5px;
+}
+
+#newbookform {
+    display: none;
+}
+
+.card {
+    display: flex;
+    padding: 4px;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 114, 143);
+    border-radius: 25px;
+    gap: 10px;
+    margin: 10px;
+}
+
+.read {
+    border-radius: 10px;
+    width: fit-content;
+    padding: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#newbook {
+    background-color: rgb(225, 255, 0);
+    width: fit-content;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.remove {
+    border-radius: 10px;
+    width: fit-content;
+    padding: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
